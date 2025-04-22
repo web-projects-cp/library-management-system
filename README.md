@@ -37,7 +37,7 @@ Below are the steps that you need to finish in order to finish this module
 
 A full-stack application for managing library operations with React frontend and Node.js/Express backend.
 
-![Library Management System Screenshot](https://via.placeholder.com/800x400?text=Library+Management+System+UI)
+![Library Management System Screenshot](https://github.com/web-projects-cp/library-management-system/blob/main/screenshot.png)
 
 ## Features
 

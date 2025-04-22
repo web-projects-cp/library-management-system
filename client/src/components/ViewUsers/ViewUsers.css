@@ -1,0 +1,17 @@
+.addbook-form__container {
+  padding: 6rem 10rem;
+  background-position: 50%;
+  background-size: cover;
+  box-shadow: 0 1rem 1rem rgba(140, 153, 153, 0.5);
+  width: 80vw;
+  min-height: 100vh;
+}
+
+td {
+  padding: 3px; /* cellpadding */
+}
+
+table {
+  border-spacing: 3px; /* cell spacing */
+  border-collapse: separate;
+}

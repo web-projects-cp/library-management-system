@@ -1,0 +1,215 @@
+.addbook-form__container {
+  padding: 6rem 10rem;
+  background-position: 50%;
+  background-size: cover;
+  box-shadow: 0 1rem 1rem rgba(140, 153, 153, 0.5);
+  width: 80vw;
+  min-height: 100vh;
+  margin-left: 30px;
+}
+
+.addbook-form,
+.addbook-form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addbook-form {
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 3px solid #d3d3d3;
+  border-radius: 5px;
+  font-weight: 700;
+  background-color: #fff;
+  width: 40rem;
+  position: relative;
+}
+
+.addbook-form__header {
+  margin-top: 0.5rem;
+}
+
+.addbook-form h4 {
+  margin-bottom: 0.7rem;
+}
+
+.addbook-form__input-topics {
+  display: flex;
+  justify-content: center;
+  margin: 0.7rem;
+  align-items: center;
+}
+
+label {
+  justify-self: flex-start;
+  margin-right: 0.5rem;
+}
+
+.addbook-form input {
+  width: 18rem;
+  padding: 0.6rem;
+  font-size: 16px;
+  font-family: 'Roboto';
+  border-radius: 3px;
+  border: 1px solid #d3d3d3;
+}
+
+.file-btn {
+  padding: 1.4rem;
+}
+
+.btn-save__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-addbook {
+  padding: 0.5rem;
+  background-color: #f37a9c;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0.8rem;
+  display: block;
+  width: 10rem;
+  font-size: 16px;
+  border: 2px solid rgb(5, 87, 12);
+  box-shadow: 0 1rem 1rem rgba(136, 136, 153, 0.3);
+}
+
+.btn-addbook:hover {
+  background-color: rgb(5, 87, 12);
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-addbook-disabled {
+  padding: 0.5rem;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0.8rem;
+  display: block;
+  width: 10rem;
+  font-size: 16px;
+  border: 2px solid rgb(5, 87, 12);
+  box-shadow: 0 1rem 1rem rgba(136, 136, 153, 0.3);
+  pointer-events: none;
+  background-color: var(--primary-light);
+}
+
+.btn-addbook-disabled:hover {
+  background-color: var(--primary-dark);
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-addbook:active {
+  outline: none;
+}
+
+.add-book__btn-add--disabled {
+  padding: 0.5rem;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  width: 10rem;
+  font-size: 16px;
+  border: 2px solid var(--primary);
+  box-shadow: 0 1rem 1rem rgba(136, 136, 153, 0.3);
+  background-color: var(--primary-light);
+  pointer-events: none;
+  margin: 0.8rem 0.8rem 1.7rem;
+}
+
+.add-book__btn-add--disabled:hover {
+  background-color: var(--primary-dark);
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 500px) {
+  .addbook-form__container {
+    padding: 6rem 2rem;
+    min-height: 100vh;
+  }
+
+  .addbook-form {
+    width: 23rem;
+    height: 32rem;
+  }
+
+  .addbook-form input {
+    width: 20rem;
+    padding: 0.7rem;
+  }
+
+  select {
+    width: 8rem;
+    padding: 0.8rem;
+  }
+
+  textarea {
+    width: 20rem;
+  }
+
+  .btn-cancel,
+  .btn-save {
+    padding: 0.6rem;
+    margin: 0.6rem;
+    width: 4rem;
+    font-size: 14px;
+  }
+}
+
+.warning-msg {
+  color: var(--red);
+}
+
+@media screen and (max-width: 320px) {
+  .addbook-form__container {
+    padding: 2rem;
+  }
+  .addbook-form {
+    width: 19rem;
+    height: 32rem;
+  }
+
+  .addbook-form input {
+    width: 16rem;
+    padding: 0.7rem;
+  }
+}
+
+td {
+  padding: 3px; /* cellpadding */
+}
+
+table {
+  border-spacing: 3px; /* cell spacing */
+  border-collapse: separate;
+}
+
+.viewautors__btn {
+  padding: 0.2rem;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0.4rem;
+  display: block;
+  width: 5rem;
+  font-size: 13px;
+  border: 2px solid var(--primary);
+  box-shadow: 0 1rem 1rem rgba(137, 153, 136, 0.3);
+}

@@ -1,0 +1,52 @@
+.addbook-form__container {
+  padding: 6rem 10rem;
+  background-position: 50%;
+  background-size: cover;
+  background-color: rgb(232, 152, 152);
+  box-shadow: 0 1rem 1rem rgba(140, 153, 153, 0.5);
+  width: 80vw;
+  min-height: 100vh;
+  margin-left: 220px;
+  margin-top: 70px;
+}
+
+td {
+  padding: 3px; /* cellpadding */
+}
+
+table {
+  width: 75vw;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+  border-spacing: 3px; /* cell spacing */
+  border-collapse: separate;
+}
+
+th {
+  cursor: pointer;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.viewbooks__btn {
+  padding: 0.2rem;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0.4rem;
+  display: block;
+  width: 5rem;
+  font-size: 13px;
+  border: 2px solid var(--primary);
+  box-shadow: 0 1rem 1rem rgba(137, 153, 136, 0.3);
+}
